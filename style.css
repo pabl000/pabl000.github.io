@@ -1,0 +1,165 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.header_color{
+	background-color:rgba(0,0,0,0.3);
+	width:100%;
+	display:flex;
+	flex-flow:column wrap;
+	align-items:center;
+	padding-bottom:34px;
+}
+header{
+	margin:0px;
+	background-image:url('jpg/bg.jpg');
+	background-size:cover;
+	background-position:top;
+	width:100%;
+	height:100%;
+	
+}
+
+h1{
+	font-size:200px;
+	padding-right:15px;
+	color:#FFFCFC;
+	letter-spacing:3px;
+	margin-bottom:10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:bold;
+	border-right:2px solid white;
+	margin-top:50px;
+}
+
+p{
+	font-size:40px;
+	font-family: 'Josefin Sans', sans-serif;
+	color:#FFFDFD;
+	bckground-color:rgba(0,0,0,0.2);
+	padding:10px 30px 30px 10px;
+	font-weight:400;
+	text-align:center;
+}
+
+
+.email{
+	width:400px;
+	height:40px;
+	font-size:20px;
+	background-color:rgba(0,0,0,0.1);
+	text-align:center;
+	color:white;
+	border:0px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:bold;
+}
+
+.light{
+	width:100%;
+	height:10px;
+	background-color:rgba(0,0,0,0.3);
+}
+
+.light2{
+	width:100%;
+	height:10px;
+	background-color:rgba(0,0,0,0.4);
+}
+
+.light3{
+	width:100%;
+	height:12px;
+	background-color:rgba(0,0,0,0.5);
+}
+
+.light4{
+	width:100%;
+	height:12px;
+	background-color:rgba(0,0,0,0.6);
+}
+
+.light5{
+	width:100%;
+	height:10px;
+	background-color:rgba(0,0,0,0.7);
+}
+
+.light6{
+	width:100%;
+	height:10px;
+	background-color:rgba(0,0,0,0.8);
+}
+
+.light7{
+	width:100%;
+	height:10px;
+	background-color:rgba(0,0,0,0.9);
+}
+
+.light8{
+	width:100%;
+	height:10px;
+	background-color:rgba(0,0,0,1);
+	
+}
+
+
+.icons{
+	margin-top:20px;
+	margin-left:200px;
+	width:300px;
+	display:flex;
+	align-self:flex-start;
+	
+	transition:all 3s;
+	padding-bottom:50px;
+}
+
+
+
+.fb{
+	width:65px;
+	height:40px;
+	transition:all 1.5s;
+	margin-right:20px;
+	
+}
+.fb:hover{
+	background-color:rgba(21,70,168,0.6);
+	border-radius:40px;
+	margin-right:30px;
+	margin-left:5px;
+}
+
+.google{
+	width:65px;
+	height:40px;
+	transition:all 1.5s;
+	margin-right:20px;
+}
+
+.google:hover{
+	background-color:rgba(165,32,53,0.6);
+	border-radius:42px;
+	margin-right:30px;
+	margin-left:5px;
+	
+}
+
+.git{
+	width:65px;
+	height:40px;
+	transition:all 1.5s;
+	
+}
+
+.git:hover{
+	background-color:rgba(0,0,0,0.6);
+	border-radius:42px;
+	margin-left:10px;
+	
+}
+
+
